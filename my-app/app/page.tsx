@@ -1,7 +1,9 @@
-import Image from "next/image";
+import { Sora } from "next/font/google";
 
-export default function Home() {
+export default function Home({}) {
   return (
-    <></>
+    <div>
+      Home
+    </div>
   );
 }
